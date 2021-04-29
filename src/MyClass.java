@@ -57,6 +57,8 @@ private static final String WEDNESDAY = "wednesday";
     	} finally {
     	  /* clean up */
     	  throw new RuntimeException();       // Noncompliant; masks the IllegalArgumentException
+		    
+		    System.out.println("checking issue");
     	}
   }
 }
